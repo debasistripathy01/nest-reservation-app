@@ -45,7 +45,10 @@ export abstract class AbstractRepository<TDocument extends AbstractDocument> {
     return document;
   }
 
-  //   async find(filterQuery: FilterQuery<TDocument>): Promise(<TDocument[]>){
-  //     return this.model.find(filterQuery).lean<Document[]>(true);
-  //   }
+  // async find(filterQuery: FilterQuery<TDocument>):Promise(<TDocument[]>){
+  //   return this.model.find(filterQuery).lean<Document[]>(true);
+  // }
+  // async findOneAndDelete(filterQuery: FilterQuery<TDocument>): Promise(<TDocument>){
+  //     return this.model.findOneAndDelete(filterQuery).lean<TDocument>(true)
+  // }
 }
